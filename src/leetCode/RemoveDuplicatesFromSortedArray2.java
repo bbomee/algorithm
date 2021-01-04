@@ -30,9 +30,7 @@ public class RemoveDuplicatesFromSortedArray2 {
 		
 		for(int i = 0; i < numsList.size(); i++) {
 			nums[i] = numsList.get(i);
-			System.out.println(nums[i]);
 		}
-		System.out.println("크기 : " + numsList.size());
 		return numsList.size();
     }
 
