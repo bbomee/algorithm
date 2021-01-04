@@ -6,8 +6,6 @@ public class RemoveElement {
 	final static int[] nums = {3,2,2,3};
 	public static void main(String[] args) {
 		int val = 3;
-		System.out.println(removeElement(nums, val));
-
 	}
 	
     public static int removeElement(int[] nums, int val) {
