@@ -9,16 +9,15 @@ public class MissingNumber {
 		
 	}
 	public static int missingNumber(int[] nums) {
-        int numLen = nums.length;
-        Arrays.sort(nums);
-        
-        for(int i = 0; i < numLen; i++) {
-        	if(i != nums[i]) {
-        		return i;
-        	}
-        }
-        
-		return 0;
+	    int resultSum = 0;
+	    int arrSum = 0;
+	    
+		for(int i = 0; i < nums.length; i++) {
+	    	 resultSum += i;
+	    	 arrSum += nums[i];
+	     }
+		
+		return resultSum + nums.length - arrSum;
     }
 
 }
