@@ -46,9 +46,7 @@ public class threeSum {
 					right--;
 				}
 			}
-
 		}
 		return result; 
 	}
-
 }

@@ -2,6 +2,7 @@ package programmers;
 
 public class skillTestLevel2 {
 
+	// 이진수의 숫자가 2이하로 차이나고 입력값보다 큰 수 찾기
 	public static void main(String[] args) {
 		long[] numbers = {2,7};
 		solution(numbers);

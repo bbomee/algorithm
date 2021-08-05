@@ -38,10 +38,6 @@ public class notSortEx6 {
 				System.out.println(result[i]);
 			}
 		}
-		
-		
-		
-		
 	}
 
 }

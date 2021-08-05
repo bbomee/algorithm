@@ -13,7 +13,6 @@ public class 멀쩡한사각형 {
 	}
 	
 	public static long solution(int w, int h) {
-        //long answer = 1;
         int gcd = BigInteger.valueOf(w).gcd(BigInteger.valueOf(h)).intValue();
         
         return w*h - (w/gcd + h/gcd-1) * gcd ;

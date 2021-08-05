@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class insertInterval {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] intervals = {{1,3},{6,9}};
 		int[] newInterval = {2,5};
 		insert(intervals, newInterval);
@@ -81,7 +80,6 @@ public class insertInterval {
 	    		}
 	    	}
     	
-
     	if(result[0] > intervals[intervals.length-1][1]) {
  			resultList.add(result);
  		} 
@@ -100,5 +98,4 @@ public class insertInterval {
     	}
         return resultArray;
     }
-
 }
