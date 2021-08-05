@@ -18,9 +18,13 @@ public class 더맵게 {
         
         int cnt = 0;
         while(heap.peek() < K) {
-        	heap.add(heap.poll() + heap.poll()*2);
+        	int mix = heap.poll() + heap.poll()*2;
+        	if(mix == 0) {
+        		return -1;
+        	} else {
+            	heap.add(mix);
+        	}
         	cnt++;
-        	if(heap.size() == 1 && heap.peek() < K) return -1; 
         }
         
 		return cnt;
